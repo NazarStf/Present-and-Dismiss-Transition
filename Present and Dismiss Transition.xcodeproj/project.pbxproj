@@ -11,6 +11,7 @@
 		74DBF5502A7400CB00376770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBF54F2A7400CB00376770 /* ContentView.swift */; };
 		74DBF5522A7400CC00376770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBF5512A7400CC00376770 /* Assets.xcassets */; };
 		74DBF5552A7400CC00376770 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBF5542A7400CC00376770 /* Preview Assets.xcassets */; };
+		74DBF55C2A74059500376770 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBF55B2A74059500376770 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		74DBF54F2A7400CB00376770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74DBF5512A7400CC00376770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74DBF5542A7400CC00376770 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74DBF55B2A74059500376770 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				74DBF54D2A7400CB00376770 /* Present_and_Dismiss_TransitionApp.swift */,
 				74DBF54F2A7400CB00376770 /* ContentView.swift */,
+				74DBF55B2A74059500376770 /* SettingsView.swift */,
 				74DBF5512A7400CC00376770 /* Assets.xcassets */,
 				74DBF5532A7400CC00376770 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DBF55C2A74059500376770 /* SettingsView.swift in Sources */,
 				74DBF5502A7400CB00376770 /* ContentView.swift in Sources */,
 				74DBF54E2A7400CB00376770 /* Present_and_Dismiss_TransitionApp.swift in Sources */,
 			);
