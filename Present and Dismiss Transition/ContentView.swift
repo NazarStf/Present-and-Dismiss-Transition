@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
 	var body: some View {
-		
 		OpenSettingsView()
 	}
 }
@@ -68,8 +67,8 @@ struct OpenSettingsView: View {
 				.foregroundColor(.black)
 				.padding(8)
 				.overlay(RoundedRectangle(cornerRadius: 30)
-							.stroke(buttonBorderGradient, lineWidth: 5)
-							.shadow(color: .gray, radius: 5))
+					.stroke(buttonBorderGradient, lineWidth: 5)
+					.shadow(color: .gray, radius: 5))
 				.offset(y: 200)
 				
 				if isShowing {
