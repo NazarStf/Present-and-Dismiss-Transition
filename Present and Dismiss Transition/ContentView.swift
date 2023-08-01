@@ -41,7 +41,7 @@ struct PresentAndDismiss: GeometryEffect {
 
 struct OpenSettingsView: View {
 	@State private var  isShowing = false
-	let gradientBackground = Gradient(colors: [.black, .white, .black])
+	let gradientBackground = Gradient(colors: [.gray, .white, .gray])
 	let buttonBorderGradient = LinearGradient(gradient: Gradient(colors: [.black, .white, .black]), startPoint: .bottomLeading, endPoint: .bottomTrailing)
 	
 	var body: some View {
